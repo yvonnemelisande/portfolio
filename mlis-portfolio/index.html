@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-mlis home
+{% for p in mlis.body %}
+  <p>{{ p.value }}</p>
+{% endfor %}
 {% endblock content %}

@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-issue paper
+{% for p in issue_paper.body %}
+  <p>{{ p.value }}</p>
+{% endfor %}
 {% endblock content %}

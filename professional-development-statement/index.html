@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-professional development statement
+{% for p in pro_dev.body %}
+  <p>{{ p.value }}</p>
+{% endfor %}
 {% endblock content %}

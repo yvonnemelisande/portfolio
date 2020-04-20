@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-supporting documentation
+{% for p in supporting.body %}
+  <p>{{ p.value }}</p>
+{% endfor %}
 {% endblock content %}

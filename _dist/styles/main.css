@@ -2,18 +2,23 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #fff;
-  color: #02b0b0;
+  color: #9342f5;
   margin: 0px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 18px;
 }
 
 article {
   max-width: 760px;
   width: 100%;
-  margin: auto;
+  margin: 50px auto 0;
 }
 
 a {
-  color: #02b0b0;
+  color: #9342f5;
 }
 
 button {
@@ -21,7 +26,7 @@ button {
   font-family: inherit;
   border: 0;
   padding: 0;
-  color: #02b0b0;
+  color: #9342f5;
 }
 
 .project {
@@ -51,6 +56,14 @@ button {
 .site-menu .links .dropbtn a, .site-menu .links a a {
   padding: 0;
 }
+.site-menu .links .dropdown-content a {
+  padding: 12px 15px;
+  text-decoration: none;
+  display: block;
+}
+.site-menu .links .dropdown-content a:hover {
+  text-decoration: underline;
+}
 .site-menu a {
   text-decoration: none;
   cursor: pointer;
@@ -77,12 +90,6 @@ button {
   background-color: #fff;
   z-index: 1;
   border: 1px solid;
-}
-
-.dropdown-content a {
-  padding: 12px 15px;
-  text-decoration: none;
-  display: block;
 }
 
 .dropdown:hover .dropdown-content {

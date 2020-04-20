@@ -7,11 +7,7 @@
   <h1>{{ meta.headline }}</h1>
   <!-- {{ pub_dates.html(meta.pub_date) }} -->
 </header>
-<div class="container">
-  <section name="content">
-    <div class="intro">
-      <p>mlem</p>
-    </div>
-  </section>
-</div>
+{% for p in about.body %}
+  <p>{{ p.value }}</p>
+{% endfor %}
 {% endblock content %}
