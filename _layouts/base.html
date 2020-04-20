@@ -18,7 +18,25 @@
   {% block extra_scripts %}{% endblock extra_scripts %}
 </head>
 <body>
-
+  <div class="menu-container">
+    <div class="site-menu">
+      <a href="./about">About</a>
+      <div class="dropdown">
+        <button class="dropbtn" href="./mlis-portfolio">MLIS Portfolio</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="./cv">CV</a>
+          <a href="./professional-development-statement">Professional Development Statement</a>
+          <a href="./issue-paper">Issue Paper</a>
+          <a href="./coursework">Coursework</a>
+          <a href="./advising-history">Record of Advising History</a>
+          <a href="./supporting-documentation">Supporting Documentation</a>
+          <a href="./accessibility-statement">Accessibility Statement</a>
+          <a href="./printable-portfolio">Printable Portfolio</a>
+        </div>
+      </div>
+      <a href="./contact">Contact</a>
+    </div>
+  </div>
   {% block content %}{% endblock content %}
 
   <footer role="contentinfo"></footer>

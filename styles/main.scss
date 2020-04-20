@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap');
 
+$site-bg: #aaf5d9;
+$accent-color: #9342f5;
+
 body{
   font-family: 'Montserrat', sans-serif;
-  background-color: #6eedbe;
-  color: purple;
+  background-color: $site-bg;
+  color: $accent-color;
   margin: 0px;
 }
 
@@ -11,8 +14,75 @@ article{
   margin: 10px;
 }
 
+a {
+  color: $accent-color;
+}
+
+button{
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  color: $accent-color;
+}
+
 .project{
   max-width: 800px;
   width: 100%;
   margin: auto;
+}
+
+.menu-container{
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  // display: block;
+  // height: 30px;
+  // padding: 10px 0;
+}
+
+.site-menu{
+  float: right;
+  a{
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  .dropbtn, a{
+    padding: 5px 15px 5px 0;
+    a{
+      padding: 0;
+    }
+  }
+}
+
+/* Dropdown Button */
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  background-color: $site-bg;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: $site-bg;
+  z-index: 1;
+  border: 1px solid;
+}
+
+.dropdown-content a {
+  padding: 12px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
