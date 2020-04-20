@@ -9,7 +9,7 @@ const baker = new Baker({
   input: process.cwd(),
   layouts: '_layouts',
   output: '_dist',
-  pathPrefix: 'localhost:3000' || '/',
+  pathPrefix: 'portfolio/' || '/',
 });
 
 module.exports = { baker };
