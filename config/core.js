@@ -5,12 +5,11 @@ const baker = new Baker({
   assets: 'assets',
   data: '_data',
   domain: 'https://yvonnemelisande.github.io/portfolio/_dist',
-  root: 'https://yvonnemelisande.github.io/portfolio',
   entrypoints: 'scripts/app.js',
   input: process.cwd(),
   layouts: '_layouts',
   output: '_dist',
-  pathPrefix: 'portfolio/' || '/',
+  pathPrefix: 'localhost:3000' || '/',
 });
 
 module.exports = { baker };
