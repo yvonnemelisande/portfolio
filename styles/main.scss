@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap');
 
 $site-bg: #fff;
-$accent-color: #9342f5;
+// $accent-color: #9342f5;
+$accent-color: #02b0b0;
+$max-width: 760px;
 
 body{
   font-family: 'Montserrat', sans-serif;
@@ -11,7 +13,9 @@ body{
 }
 
 article{
-  margin: 10px;
+  max-width: $max-width;
+  width: 100%;
+  margin: auto;
 }
 
 a {
@@ -27,13 +31,14 @@ button{
 }
 
 .project{
-  max-width: 800px;
-  width: 100%;
-  margin: auto;
+  // max-width: $max-width;
+  // width: 100%;
+  // margin: auto;
+  margin: 0 10px;
 }
 
 .menu-container{
-  max-width: 800px;
+  max-width: $max-width;
   width: 100%;
   margin: auto;
   // display: block;
@@ -42,17 +47,29 @@ button{
 }
 
 .site-menu{
-  float: right;
-  a{
-    text-decoration: none;
-    &:hover{
-      text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // width: 100%;
+  padding-top: 10px;
+  margin: 0 10px;
+  .name{
+    display: inline;
+    font-weight: 600;
+  }
+  .links{
+    .dropbtn, a{
+      padding: 5px 0px 5px 15px;
+      a{
+        padding: 0;
+      }
     }
   }
-  .dropbtn, a{
-    padding: 5px 15px 5px 0;
-    a{
-      padding: 0;
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+      text-decoration: underline;
     }
   }
 }

@@ -3,19 +3,15 @@
 {% import "macros/pub_dates.html" as pub_dates %}
 
 {% block content %}
-<article>
-  <div class="project">
-    <header class="center">
-      <h1>{{ meta.headline }}</h1>
-      <!-- {{ pub_dates.html(meta.pub_date) }} -->
-    </header>
-    <div class="container">
-      <section name="content">
-        <div class="intro">
-          <p>mlem</p>
-        </div>
-      </section>
+<header class="center">
+  <h1>{{ meta.headline }}</h1>
+  <!-- {{ pub_dates.html(meta.pub_date) }} -->
+</header>
+<div class="container">
+  <section name="content">
+    <div class="intro">
+      <p>mlem</p>
     </div>
-  </div>
-</article>
+  </section>
+</div>
 {% endblock content %}
