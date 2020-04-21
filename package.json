@@ -3,7 +3,6 @@
   "scripts": {
     "build": "NODE_ENV=production node config/build.js",
     "deploy": "NODE_ENV=production node config/deploy.js",
-    "git-pre-commit": "lint-staged",
     "start": "NODE_ENV=development node config/serve.js",
     "resize-images": "node workspace/images/resize.js"
   },
