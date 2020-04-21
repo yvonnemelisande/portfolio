@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<h1>{{cv.header}}</h1>
 {% for p in cv.body %}
   <p>{{ p.value }}</p>
 {% endfor %}

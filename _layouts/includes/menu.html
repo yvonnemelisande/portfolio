@@ -8,18 +8,17 @@
     <div class="links">
       <!-- <a href="{{ PATH_PREFIX }}">About</a> -->
       <div class="dropdown">
-        <button class="dropbtn">
-          <a href="{{ PATH_PREFIX }}{{ slash }}mlis-portfolio">
-            MLIS Portfolio
-          </a>
-        </button>
+        <button class="dropbtn">MLIS Portfolio</button>
         <div id="myDropdown" class="dropdown-content">
           <a href="{{ PATH_PREFIX }}{{ slash }}cv">CV</a>
           <a href="{{ PATH_PREFIX }}{{ slash }}professional-development-statement">Professional Development Statement</a>
           <a href="{{ PATH_PREFIX }}{{ slash }}issue-paper">Issue Paper</a>
-          <a href="{{ PATH_PREFIX }}{{ slash }}coursework">Coursework</a>
+          <div class="item">Coursework</div>
+          <a class="indent" href="{{ PATH_PREFIX }}{{ slash }}major-paper">Major Paper</a>
+          <a class="indent" href="{{ PATH_PREFIX }}{{ slash }}core-paper">Core Paper</a>
+          <a class="indent" href="{{ PATH_PREFIX }}{{ slash }}elective-papers">Elective Papers</a>
+          <a class="indent" href="{{ PATH_PREFIX }}{{ slash }}course-list">Course List</a>
           <a href="{{ PATH_PREFIX }}{{ slash }}advising-history">Record of Advising History</a>
-          <a href="{{ PATH_PREFIX }}{{ slash }}supporting-documentation">Supporting Documentation</a>
           <a href="{{ PATH_PREFIX }}{{ slash }}accessibility-statement">Accessibility Statement</a>
           <a href="{{ PATH_PREFIX }}{{ slash }}printable-portfolio">Printable Portfolio</a>
         </div>

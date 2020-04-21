@@ -67,18 +67,24 @@ h1{
     font-weight: 600;
   }
   .links{
-    .dropbtn, a{
+    .dropbtn, a, .item{
       padding: 5px 0px 5px 15px;
       a{
         padding: 0;
       }
     }
-    .dropdown-content a {
-      padding: 12px 15px;
-      text-decoration: none;
-      display: block;
-      &:hover{
-        text-decoration: underline;
+    .dropdown-content{
+      width: 161px;
+      a {
+        padding: 12px 15px;
+        text-decoration: none;
+        display: block;
+        &:hover{
+          text-decoration: underline;
+        }
+        &.indent{
+          padding: 6px 30px;
+        }
       }
     }
   }

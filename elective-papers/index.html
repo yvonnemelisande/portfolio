@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{elective_papers.header}}</h1>
+{% for p in elective_papers.body %}
+  <p>{{ p.value }}</p>
+{% endfor %}
+
+<h2>{{elective_papers.paper_1}}</h2>
+{% for p in elective_papers.paper_1_text %}
+  <p>{{ p.value }}</p>
+{% endfor %}
+<h3>Abstract</h3>
+{% for p in elective_papers.paper_1_abstract %}
+  <p>{{ p.value }}</p>
+{% endfor %}
+
+<h2>{{elective_papers.paper_2}}</h2>
+{% for p in elective_papers.paper_2_text %}
+  <p>{{ p.value }}</p>
+{% endfor %}
+<h3>Abstract</h3>
+{% for p in elective_papers.paper_2_abstract %}
+  <p>{{ p.value }}</p>
+{% endfor %}
+{% endblock content %}

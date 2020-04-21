@@ -1,0 +1,40 @@
+header: Elective Papers
+
+[+body]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus sapien, tincidunt eu feugiat sed, iaculis at augue. Quisque leo velit, cursus eget felis laoreet, blandit ultricies tellus.
+
+[]
+
+paper_1: Paper 1 title
+
+[+paper_1_text]
+
+Proin et massa faucibus erat pharetra pellentesque eget et purus. Quisque et tristique quam. Maecenas aliquet diam a nulla ultrices, vitae malesuada ex dapibus. Nulla ligula urna, cursus quis tortor quis, tempor convallis dolor. Quisque ut quam placerat, finibus enim vel, luctus ante. Nunc sodales, ligula sit amet feugiat lacinia, magna ante auctor mauris, eu rhoncus lectus velit nec eros. Duis sed tellus nec dui pellentesque condimentum ac et nunc.
+
+[]
+
+[+paper_1_abstract]
+
+Proin et massa faucibus erat pharetra pellentesque eget et purus. Quisque et tristique quam. Maecenas aliquet diam a nulla ultrices, vitae malesuada ex dapibus. Nulla ligula urna, cursus quis tortor quis, tempor convallis dolor. Quisque ut quam placerat, finibus enim vel, luctus ante. Nunc sodales, ligula sit amet feugiat lacinia, magna ante auctor mauris, eu rhoncus lectus velit nec eros. Duis sed tellus nec dui pellentesque condimentum ac et nunc.
+
+Nulla ligula urna, cursus quis tortor quis, tempor convallis dolor. Quisque ut quam placerat, finibus enim vel, luctus ante. Nunc sodales, ligula sit amet feugiat lacinia, magna ante auctor mauris, eu rhoncus lectus velit nec eros. Duis sed tellus nec dui pellentesque condimentum ac et nunc.
+
+[]
+
+
+paper_2: Paper 2 title
+
+[+paper_2_text]
+
+Proin et massa faucibus erat pharetra pellentesque eget et purus. Quisque et tristique quam. Maecenas aliquet diam a nulla ultrices, vitae malesuada ex dapibus. Nulla ligula urna, cursus quis tortor quis, tempor convallis dolor. Quisque ut quam placerat, finibus enim vel, luctus ante. Nunc sodales, ligula sit amet feugiat lacinia, magna ante auctor mauris, eu rhoncus lectus velit nec eros. Duis sed tellus nec dui pellentesque condimentum ac et nunc.
+
+[]
+
+[+paper_2_abstract]
+
+Proin et massa faucibus erat pharetra pellentesque eget et purus. Quisque et tristique quam. Maecenas aliquet diam a nulla ultrices, vitae malesuada ex dapibus. Nulla ligula urna, cursus quis tortor quis, tempor convallis dolor. Quisque ut quam placerat, finibus enim vel, luctus ante. Nunc sodales, ligula sit amet feugiat lacinia, magna ante auctor mauris, eu rhoncus lectus velit nec eros. Duis sed tellus nec dui pellentesque condimentum ac et nunc.
+
+Nulla ligula urna, cursus quis tortor quis, tempor convallis dolor. Quisque ut quam placerat, finibus enim vel, luctus ante. Nunc sodales, ligula sit amet feugiat lacinia, magna ante auctor mauris, eu rhoncus lectus velit nec eros. Duis sed tellus nec dui pellentesque condimentum ac et nunc.
+
+[]
