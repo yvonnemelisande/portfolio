@@ -2,11 +2,11 @@
 
 {% block content %}
 <h1>{{core_paper.header}}</h1>
-{% for p in major_paper.body %}
+{% for p in core_paper.body %}
   <p>{{ p.value }}</p>
 {% endfor %}
 <h2>{{core_paper.header_2}}</h2>
-{% for p in major_paper.body_abstract %}
+{% for p in core_paper.body_abstract %}
   <p>{{ p.value }}</p>
 {% endfor %}
 {% endblock content %}
