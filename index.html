@@ -7,7 +7,10 @@
   <h1>{{ meta.headline }}</h1>
   <!-- {{ pub_dates.html(meta.pub_date) }} -->
 </header>
+<div class="home">
 {% for p in about.body %}
+  <img src="{% static '/assets/images/headshot.jpeg' %}" />
   <p>{{ p.value }}</p>
 {% endfor %}
+</div>
 {% endblock content %}
