@@ -21,7 +21,7 @@ p{
 article{
   max-width: $max-width;
   width: 100%;
-  margin: 50px auto 0;
+  margin: 50px auto;
 }
 
 a {
@@ -41,6 +41,10 @@ button{
 
 h1{
   font-size: 32px;
+}
+
+h2{
+  margin-top: 80px;
 }
 
 .project{
