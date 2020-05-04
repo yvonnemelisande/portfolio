@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  color: #9342f5;
+  margin: 0px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+article {
+  max-width: 760px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+a {
+  color: #9342f5;
+}
+a:hover {
+  color: #02b0b0;
+}
+
+button {
+  font-size: 100%;
+  font-family: inherit;
+  border: 0;
+  padding: 0;
+  color: #9342f5;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  margin-top: 80px;
+}
+
+.project {
+  margin: 0 10px;
+}
+
+.menu-container {
+  max-width: 760px;
+  width: 100%;
+  margin: auto;
+}
+
+.site-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin: 0 10px;
+}
+.site-menu .name {
+  display: inline;
+  font-weight: 600;
+}
+.site-menu .links .dropbtn, .site-menu .links a, .site-menu .links .item {
+  padding: 5px 0px 5px 15px;
+}
+.site-menu .links .dropbtn a, .site-menu .links a a, .site-menu .links .item a {
+  padding: 0;
+}
+.site-menu .links .dropdown-content {
+  width: 161px;
+}
+.site-menu .links .dropdown-content a {
+  padding: 12px 15px;
+  text-decoration: none;
+  display: block;
+}
+.site-menu .links .dropdown-content a:hover {
+  text-decoration: underline;
+}
+.site-menu .links .dropdown-content a.indent {
+  padding: 6px 30px;
+}
+.site-menu a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.site-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+  border: 1px solid;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.home img {
+  display: inline-block;
+  max-width: 400px;
+  margin: 0 15px 15px 0;
+}
+.home p {
+  display: inline-block;
+}
