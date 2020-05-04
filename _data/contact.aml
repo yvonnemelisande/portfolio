@@ -1,7 +1,7 @@
 header: Contact
 
 [+body]
-email: ymeadon@gmail.com
-twitter: @yvonnemelisande
+email&#58; <a href="mailto:ymeadon@gmail.com">ymeadon@gmail.com</a>
+twitter&#58; <a href="https://twitter.com/yvonnemelisande">@yvonnemelisande</a>
 
 []
