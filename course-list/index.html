@@ -3,5 +3,27 @@
 {% block content %}
 <h1>List of courses taken</h1>
 
-table here
+<table>
+  <thead>
+    <tr>
+      <th>Quarter</th>
+      <th>Class</th>
+      <th style="text-align: center;">Units</th>
+      <th style="text-align: center;">Grade</th>
+      <th>Professor</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for course in course_list %}
+    <tr>
+      <td>{{course.Quarter}}</td>
+      <td>{{course.Class}}</td>
+      <td style="text-align: center;">{{course.Units}}</td>
+      <td style="text-align: center;">{{course.Grade}}</td>
+      <td>{{course.Professor}}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<p style="font-size: 11px;">* Concurrent PhD coursework not included</p>
 {% endblock content %}
