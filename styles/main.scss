@@ -8,14 +8,8 @@ $max-width: 760px;
 body{
   font-family: 'Montserrat', sans-serif;
   background-color: $site-bg;
-  color: $accent-color;
+  color: #1d1d1d;
   margin: 0px;
-}
-
-p{
-  line-height: 1.5;
-  font-size: 18px;
-  // color: #000;
 }
 
 article{
@@ -31,11 +25,28 @@ a {
   }
 }
 
+p {
+  line-height: 1.8;
+  font-size: 18px;
+  // color: #000;
+  margin: 0px 0 50px 0;
+  a {
+    color: $link-color;
+    &:hover{
+      color: darken($link-color, 15%);
+    }
+  }
+}
+
 button{
   font-size: 100%;
   font-family: inherit;
   border: 0;
   padding: 0;
+  color: $accent-color;
+}
+
+h1, h2, h3, h4, h5, h6{
   color: $accent-color;
 }
 
@@ -122,7 +133,7 @@ h2{
   position: absolute;
   background-color: $site-bg;
   z-index: 1;
-  border: 1px solid;
+  border: 1px solid $accent-color;
 }
 
 .dropdown:hover .dropdown-content {
@@ -137,5 +148,27 @@ h2{
   }
   p{
     display: inline-block;
+  }
+}
+
+table{
+  th, td{
+    text-align: left;
+    padding: 10px 5px;
+    &:first-of-type{
+      padding-left: 0px;
+    }
+    @media(max-width: 500px){
+      font-size: 13px;
+    }
+  }
+}
+
+li{
+  color: $accent-color;
+  padding: 10px 0;
+  margin-left:-18px;
+  &.tab{
+    margin-left: 10px;
   }
 }

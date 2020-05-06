@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% set slash = "/" if NODE_ENV === 'production' else "" %}
+
+{% block content %}
+<h1>Table of Contents</h1>
+<ul>
+  <li><a href="{{ PATH_PREFIX }}{{ slash }}cv">CV</a></li>
+  <li><a href="{{ PATH_PREFIX }}{{ slash }}professional-development-statement">Professional Development Statement</a></li>
+  <li><a href="{{ PATH_PREFIX }}{{ slash }}issue-paper">Issue Paper</a></li>
+  <li><div class="item">Coursework</div></li>
+  <li class="tab"><a href="{{ PATH_PREFIX }}{{ slash }}major-paper">Major Paper</a></li>
+  <li class="tab"><a href="{{ PATH_PREFIX }}{{ slash }}core-paper">Core Paper</a></li>
+  <li class="tab"><a href="{{ PATH_PREFIX }}{{ slash }}elective-papers">Elective Papers</a></li>
+  <li class="tab"><a href="{{ PATH_PREFIX }}{{ slash }}course-list">Course List</a></li>
+  <li><a href="{{ PATH_PREFIX }}{{ slash }}advising-history">Record of Advising History</a></li>
+  <li><a href="{{ PATH_PREFIX }}{{ slash }}accessibility-statement">Accessibility Statement</a></li>
+  <li><a href="{{ PATH_PREFIX }}{{ slash }}printable-portfolio">Printable Portfolio</a></li>
+</ul>
+{% endblock content %}
