@@ -1,6 +1,8 @@
 header: Issue Paper
 
-[+body]
+header_2: Abstract
+
+[+body_abstract]
 Issue Paper
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus sapien, tincidunt eu feugiat sed, iaculis at augue. Quisque leo velit, cursus eget felis laoreet, blandit ultricies tellus.
