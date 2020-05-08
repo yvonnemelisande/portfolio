@@ -14,7 +14,7 @@
 {% for p in elective_papers.paper_1_abstract %}
   <p>{{ p.value }}</p>
 {% endfor %}
-<a href="{% static '/assets/pdfs/Eadon_elective_paper_1.pdf' %}">Elective paper 1: "The Truth is Out There: Examining Conspiracist Information Seeking in Archives"</a>
+<div class="standalone-link"><a href="{% static '/assets/pdfs/Eadon_elective_paper_1.pdf' %}">Elective paper 1: "The Truth is Out There: Examining Conspiracist Information Seeking in Archives"</a></div>
 
 <div class="breaker-holder">
   <div class="breaker"></div>
@@ -30,9 +30,8 @@
   <p>{{ p.value }}</p>
 {% endfor %}
 
-<a href="{% static '/assets/pdfs/Eadon_elective_paper_2.pdf' %}">Elective paper 2: "Misinformation and Disinformation: A Review of the Literature"</a>
-<br />
-<a href="{% static '/assets/pdfs/Eadon_elective_paper_2_slides.pdf' %}">Elective paper 2 slides</a>
+<div class="standalone-link"><a href="{% static '/assets/pdfs/Eadon_elective_paper_2.pdf' %}">Elective paper 2: "Misinformation and Disinformation: A Review of the Literature"</a></div>
+<div class="standalone-link"><a href="{% static '/assets/pdfs/Eadon_elective_paper_2_slides.pdf' %}">Elective paper 2 slides</a></div>
 
 <div class="breaker-holder">
   <div class="breaker"></div>
@@ -48,5 +47,5 @@
   <p>{{ p.value }}</p>
 {% endfor %}
 
-<a href="{% static '/assets/pdfs/Eadon_elective_paper_3_pub_policy.pdf' %}">Elective paper 3: "Analysis of Pilot Data"</a>
+<div class="standalone-link"><a href="{% static '/assets/pdfs/Eadon_elective_paper_3_pub_policy.pdf' %}">Elective paper 3: "Analysis of Pilot Data"</a></div>
 {% endblock content %}

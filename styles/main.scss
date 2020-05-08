@@ -204,6 +204,10 @@ li{
   max-width: 70%;
   margin: 100px auto;
   flex-wrap: wrap;
+  @media(max-width: 500px){
+    max-width: 90%;
+    margin: 70px auto;
+  }
 }
 
 .breaker{
@@ -218,4 +222,19 @@ li{
   margin-top: -12px;
   background-color: $accent-color;
   transform: rotate(45deg);
+}
+
+br{
+  margin-bottom: 5px;
+}
+
+.standalone-link{
+  margin-bottom: 5px;
+  &::before{
+    content: '»';
+    margin-right: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: $link-color;
+  }
 }
