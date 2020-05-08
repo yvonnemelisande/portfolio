@@ -6,4 +6,6 @@
 {% for p in issue_paper.body_abstract %}
   <p>{{ p.value }}</p>
 {% endfor %}
+
+<div class="standalone-link"><a href="{% static '/assets/pdfs/Eadon_issue_paper.pdf' %}">Link to issue paper</a></div>
 {% endblock content %}

@@ -5,10 +5,10 @@
 {% for p in major_paper.body %}
   <p>{{ p.value }}</p>
 {% endfor %}
-<h2>{{major_paper.header_2}}</h2>
+<h2 class="abstract">{{major_paper.header_2}}</h2>
 {% for p in major_paper.body_abstract %}
   <p>{{ p.value }}</p>
 {% endfor %}
 
-<a href="{% static '/assets/pdfs/Eadon_major_paper_272.pdf' %}">Link to major paper</a>
+<div class="standalone-link"><a href="{% static '/assets/pdfs/Eadon_major_paper_272.pdf' %}">Link to major paper</a></div>
 {% endblock content %}

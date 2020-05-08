@@ -5,5 +5,5 @@
 {% for p in cv.body %}
   <p>{{ p.value }}</p>
 {% endfor %}
-<a href="{% static '/assets/pdfs/Yvonne_Eadon_CV.pdf' %}">Link to CV</a>
+<div class="standalone-link"><a href="{% static '/assets/pdfs/Yvonne_Eadon_CV.pdf' %}">Link to CV</a></div>
 {% endblock content %}
