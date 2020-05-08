@@ -7,8 +7,11 @@
   <h1>{{ meta.headline }}</h1>
 </header>
 <div class="home">
+  <div class="float-img">
+    <img src="{% static '/assets/images/headshot.jpeg' %}" />
+    <p class="caption">Image description: A woman stands in front of a fountain, wearing a blue coat and smiling.</p>
+  </div>
 {% for p in about.body %}
-  <img src="{% static '/assets/images/headshot.jpeg' %}" />
   <p>{{ p.value }}</p>
 {% endfor %}
 </div>
