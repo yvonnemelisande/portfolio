@@ -2,8 +2,8 @@
 
 $site-bg: #fff;
 // $accent-color: #9342f5;
-$accent-color: #068f9c;
-$link-color: #02b0b0;
+$accent-color: #07828D;
+$link-color: #6F0CE9;
 $max-width: 760px;
 
 body{
@@ -17,6 +17,12 @@ article{
   max-width: $max-width;
   width: 100%;
   margin: 50px auto;
+  a {
+    color: $link-color;
+    &:hover{
+      color: darken($link-color, 15%);
+    }
+  }
 }
 
 a {
@@ -31,12 +37,6 @@ p {
   font-size: 18px;
   // color: #000;
   margin: 0px 0 50px 0;
-  a {
-    color: $link-color;
-    &:hover{
-      color: darken($link-color, 15%);
-    }
-  }
 }
 
 button{
