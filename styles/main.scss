@@ -20,7 +20,7 @@ article{
   a {
     color: $link-color;
     &:hover{
-      color: darken($link-color, 15%);
+      color: darken($link-color, 25%);
     }
   }
 }
@@ -28,7 +28,7 @@ article{
 a {
   color: $accent-color;
   &:hover{
-    color: $link-color;
+    color: $accent-color;
   }
 }
 
@@ -37,6 +37,9 @@ p {
   font-size: 18px;
   // color: #000;
   margin: 0px 0 50px 0;
+  &.contact{
+    margin-bottom: 0px;
+  }
 }
 
 button{
@@ -88,6 +91,7 @@ h2{
   }
   .links{
     .dropbtn, a, .item{
+      color: $accent-color;
       padding: 5px 0px 5px 15px;
       a{
         padding: 0;
