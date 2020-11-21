@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{{publications.header}}</h1>
+{% for p in publications.body %}
+  <p class="publications">{{ p.value }}</p>
+{% endfor %}
+{% endblock content %}

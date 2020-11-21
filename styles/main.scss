@@ -92,6 +92,10 @@ h1 + h2, h2.abstract {
   .name{
     display: inline;
     font-weight: 600;
+    @media(max-width: 500px){
+      width: 80px;
+      text-align: center;
+    }
   }
   .links{
     .dropbtn, a, .item{
@@ -236,5 +240,11 @@ br{
     font-size: 18px;
     text-decoration: none;
     color: $link-color;
+  }
+}
+
+iframe.cv{
+  @media(max-width: 750px){
+    display: none;
   }
 }
